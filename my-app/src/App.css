@@ -1,0 +1,43 @@
+App.css .profile {
+  margin-bottom: 20px;
+}
+
+button {
+  margin-left: 10px;
+}
+
+/* DarkModeToggle.css */
+
+/* Standard ljus läge */
+body {
+  background-color: #ffffff;
+  color: #000000;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+/* Styla knappen */
+.dark-mode-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Knapp i ljus läge */
+.dark-mode-button {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* Knapp i mörkt läge */
+.dark-mode-button.light {
+  background-color: #ffffff;
+  color: #000000;
+}
